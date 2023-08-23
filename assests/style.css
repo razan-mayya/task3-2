@@ -1,0 +1,232 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+nav {
+    position: fixed;
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(44, 62, 80);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* nav a {
+    display: none;
+} */
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+/* @media (max-width:500px) {
+    nav ul {
+        display: none;
+    }
+
+    nav a {
+        display: inline-block;
+    }
+
+    nav a:hover {
+        nav ul {
+            display: inline-block;
+        }
+    }
+} */
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.bgcolor {
+    background-color: rgb(26, 188, 156);
+}
+
+.bgcol {
+    background-color: rgb(44, 62, 80);
+}
+
+.whitecolor {
+    color: whitesmoke;
+}
+
+.colora {
+    color: rgb(44, 62, 80);
+}
+
+.bgwhite {
+    background-color: whitesmoke;
+}
+
+.bg1 {
+    background-color: rgb(186, 76, 99);
+}
+
+.bg2 {
+    background-color: rgb(31, 164, 182);
+}
+
+.bg3 {
+    background-color: rgb(29, 131, 193);
+}
+
+.bg4 {
+    background-color: rgb(204, 178, 163);
+}
+
+.p30 {
+    padding: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* لحتى حط الخطين تحت النجمه مو فوقا */
+.hero_div {
+    display: flex;
+    align-items: end;
+    gap: 6px;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    right: -60px;
+}
+
+.hero .con .circle img {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -10px;
+}
+
+.circle img {
+    width: 150px;
+    height: 150px;
+}
+
+.circle:hover {
+    background-color: blueviolet;
+}
+
+.line {
+    display: inline-block;
+    width: 70px;
+    height: 2px;
+
+}
+
+.star {
+    width: 20px;
+    height: 20px;
+}
+
+/* يحوي الصوره الشخصيه والكتابه بعدا مع شكل النجمه يعني كلشي موجود بالهيرو وبخلين تحت بعض */
+.con {
+    flex-direction: column;
+}
+
+
+.sec1 h1 {
+    color: rgb(44, 62, 80);
+}
+
+.sec {
+    width: 100vw;
+    flex-direction: column;
+    padding: 30px;
+}
+
+/* يحوي البوكسات المعبره عن الكهارات الشخضية */
+.container {
+    width: 85vw;
+    flex-wrap: wrap;
+    padding: 25px;
+    gap: 5px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+/* القسمين الموجودين في القسم about */
+.div1,
+.div2 {
+    width: 25%;
+    margin: 20px;
+}
+
+button {
+    border-color: whitesmoke;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+}
+
+button img {
+    width: 20px;
+    height: 20px;
+    margin: 0px 5px;
+}
+
+input {
+    display: block;
+    margin: 20px;
+    border: none;
+    padding: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.087);
+}
+
+form button {
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px;
+}
+
+footer {
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+footer div {
+    width: 250px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: rgb(26, 188, 156);
+}
+
+.end {
+    margin-top: 70px;
+    width: 100vw;
+    background-color: rgb(26, 37, 47);
+    height: 80px;
+}
+
+footer img {
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+}
